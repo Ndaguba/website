@@ -1,0 +1,44 @@
+.app-demo {
+  padding: 80px 2rem;
+  background-color: #000000;
+}
+
+
+
+.demo-container {
+  margin: 0 auto;
+width: 1347px;
+height: 48rem;
+  text-align: center;
+  background: url("https://wexlxtqsipufuzfrzybl.supabase.co/storage/v1/object/public/landing.assets/Clip/Black%20and%20White%20Professional%20Designer%20Business%20Card.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.video-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.demo-video {
+  width: 1115px;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .app-demo {
+    padding: 40px 1rem;
+  }
+  
+  .demo-video {
+    width: 100%;
+    max-width: 500px;
+  }
+}

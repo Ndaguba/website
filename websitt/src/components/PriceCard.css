@@ -1,0 +1,89 @@
+.price-section{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 175px;
+    gap: 32px;
+    padding-bottom: 44px;
+  
+}
+.price-description{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    font-size: 16px;
+    color: rgb(173, 173, 173);
+    margin-bottom: 8px !important;
+    line-height: 1.5 !important;
+}
+.price-section h2{
+    font-size: 2rem;
+    font-weight: 300;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
+
+.price-container{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    border: 1px solid rgb(50, 50, 50);
+    margin: 0 auto;
+    width: 45rem;
+}
+.price-amount{
+    font-size: 4rem;
+}
+.price-duration{
+    font-size: 16px;
+}
+
+.price-header{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+}
+
+.price-header h2,
+.price-header p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.feature-line{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+button{
+padding: 12px 16px;
+font-size: 14px;
+background-color: #f9fafb;
+box-shadow: none;
+border: none;
+}
+
+.price-action{
+    display: flex;;
+    align-items: center;
+    gap: 8px;
+}
+.price-note{
+    font-size: 12px;
+    color: rgb(173, 173, 173);
+}
