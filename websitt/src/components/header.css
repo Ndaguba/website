@@ -37,7 +37,7 @@ header{
 }
 
 .nav-links{
-    display: flex;
+    display: none;
     align-items: center;
     gap: 24px;
     margin-top: 2px;

@@ -5,6 +5,7 @@ const AppDemo = () => {
   return (
     <section className="app-demo">
       <div className="demo-container">
+
         <div className="video-wrapper">
           <video 
             className="demo-video"

@@ -2,8 +2,15 @@
   padding: 80px 2rem;
   background-color: #000000;
 }
-
-
+.app-demo h3 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  width: 45%;
+  margin: 0 auto;
+  font-weight: 300;
+}
 
 .demo-container {
   margin: 0 auto;

@@ -11,6 +11,14 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleSignIn = () => {
+    window.open('https://beta.usemossy.co/login', '_blank');
+  };
+
+  const handleJoinBeta = () => {
+    window.open('https://beta.usemossy.co/signup', '_blank');
+  };
+
   return (
     <header className="header">
       <div className="header-container">
@@ -32,10 +40,10 @@ const Header = () => {
         </div>
        
         <div className="header-actions">
-          <Button variant="secondary" size="small">
+          <Button variant="secondary" size="small" onClick={handleSignIn}>
             Sign In
           </Button>
-          <Button variant="medium" size="small">
+          <Button variant="medium" size="small" onClick={handleJoinBeta}>
            Join Beta
           </Button>
         </div>

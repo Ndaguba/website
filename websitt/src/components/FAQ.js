@@ -6,28 +6,28 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: "What is your service about?",
-      answer: "Our service provides comprehensive solutions to help businesses grow and succeed in the digital landscape. We offer personalized strategies tailored to your specific needs."
+      question: "Who is Mossy AI built for?",
+      answer: "Mossy AI is designed for solopreneurs, freelancers, and small business owners who don’t have time (or interest) to learn accounting. It keeps your books clean and organized while you focus on running your business."
     },
     {
-      question: "How do I get started?",
-      answer: "Getting started is simple! Just contact us through our contact form or give us a call. We'll schedule a free consultation to discuss your needs and create a customized plan."
+      question: "How does Mossy AI save me time?",
+      answer: "No more manual data entry. Upload a receipt, forward a bank statement, or just type what happened—Mossy does the rest. It automatically matches receipts, categorizes expenses, and even gives you quick health check insights like “you spent 20% more on ads this month"
     },
     {
-      question: "What are your pricing plans?",
-      answer: "We offer flexible pricing plans to suit businesses of all sizes. Our plans start from basic packages for small businesses to enterprise solutions for larger organizations. Contact us for detailed pricing."
+      question: "Can Mossy connect directly to my bank?",
+      answer: "Yes. Mossy connects securely to your bank so transactions flow in automatically. You’re always in control—you can choose which accounts to link or disconnect anytime."
     },
     {
-      question: "Do you offer customer support?",
-      answer: "Yes! We provide 24/7 customer support through multiple channels including email, phone, and live chat. Our dedicated support team is always ready to help you."
+      question: "What about bank statements?",
+      answer: "You can upload PDF, Excel, or CSV bank statements. Mossy will read them, organize them, and sort your transactions."
     },
     {
       question: "Can I cancel my subscription anytime?",
       answer: "Absolutely! You can cancel your subscription at any time with no hidden fees or penalties. We believe in providing flexibility to our customers."
     },
     {
-      question: "Is my data secure?",
-      answer: "Data security is our top priority. We use industry-standard encryption and security measures to protect your information. All data is stored securely and we comply with relevant privacy regulations."
+      question: "How much does it cost?",
+      answer: "Mossy has a Free Plan for testing the basics, and a Pro Plan at $10/month that unlocks unlimited entries, receipt uploads, and full AI support. You can try Pro free for 14 days—no strings attached."
     }
   ];
 
