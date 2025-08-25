@@ -18,8 +18,8 @@ const ActionCTA = () => {
       <div className='footer-bottom'>
 
  <div className='legal-links'>
-        <a href=''>Terms of Service</a>
-        <a href=''>Privacy Policy</a>
+        <a href='https://policy.usemossy.co'>Terms of Service</a>
+        <a href='https://policy.usemossy.co'>Privacy Policy</a>
       </div>
       <div className='action-footer'>
         <p>© 2025 Mossy AI. All rights reserved.</p>
