@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { HiOutlineArrowSmLeft, HiOutlineArrowSmRight } from 'react-icons/hi';
 import './FeatureSection.css';
 import { IoIosGitNetwork } from "react-icons/io";
@@ -10,6 +10,22 @@ import { HiOutlineDocumentDownload } from "react-icons/hi";
 
 const FeatureSection = () => {
   const [activeCard, setActiveCard] = useState(0);
+  const [cardWidth, setCardWidth] = useState(316);
+  const carouselRef = useRef(null);
+
+  // Responsive card width calculation
+  useEffect(() => {
+    function updateCardWidth() {
+      if (window.innerWidth <= 768 && carouselRef.current) {
+        setCardWidth(carouselRef.current.offsetWidth);
+      } else {
+        setCardWidth(316);
+      }
+    }
+    updateCardWidth();
+    window.addEventListener('resize', updateCardWidth);
+    return () => window.removeEventListener('resize', updateCardWidth);
+  }, []);
 
   const features = [
     {
@@ -58,8 +74,11 @@ const FeatureSection = () => {
         </div>
         
         <div className="features-carousel">
-          <div className="carousel-container">
-            <div className="carousel-track" style={{ transform: `translateX(-${activeCard * 316}px)` }}>
+          <div className="carousel-container" ref={carouselRef}>
+            <div
+              className="carousel-track"
+              style={{ transform: `translateX(-${activeCard * cardWidth}px)` }}
+            >
               {features.map((feature, index) => (
                 <div key={feature.id} className="feature-card">
                   <div className='feature-top'>
