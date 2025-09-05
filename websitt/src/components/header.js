@@ -12,11 +12,11 @@ const Header = () => {
   };
 
   const handleSignIn = () => {
-    window.open('https://beta.usemossy.co/login', '_blank');
+    window.open('https://app.usemossy.co/login', '_blank');
   };
 
   const handleJoinBeta = () => {
-    window.open('https://beta.usemossy.co/signup', '_blank');
+    window.open('https://app.usemossy.co/signup', '_blank');
   };
 
   return (

@@ -10,7 +10,7 @@ import ActionCTA from '../components/ActionCTA';
 
 const Home = () => {
     const handleJoinBeta = () => {
-        window.open('https://beta.usemossy.co/signup', '_blank');
+        window.open('https://app.usemossy.co/signup', '_blank');
     };
 
     return (
