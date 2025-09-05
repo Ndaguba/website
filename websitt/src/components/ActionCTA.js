@@ -13,7 +13,7 @@ const ActionCTA = () => {
         <p>Experience seamless financial management and insights at your fingertips.</p>
   
       </div>
-            <button className="cta-button">Join Beta</button>
+            <button className="cta-button">Get Started for Free</button>
       </div>
       <div className='footer-bottom'>
 

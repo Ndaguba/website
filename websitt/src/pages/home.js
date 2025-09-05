@@ -34,8 +34,8 @@ const Home = () => {
                 <div className='hero-content-wrapper'>
                     <div className='hero-content'>
                         <h1>Mossy is an AI bookkeeping agent for solopreneurs and small teams</h1>
-                        
-                        <Button size="large" onClick={handleJoinBeta}>Join Beta</Button>
+
+                        <Button size="large" onClick={handleJoinBeta}>Get Started for Free</Button>
                     </div>
                     <img src="https://wexlxtqsipufuzfrzybl.supabase.co/storage/v1/object/public/signupbackground/Clip/appshot.png" alt="Background" className='hero-image' />     
                     </div> 

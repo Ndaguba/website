@@ -44,7 +44,7 @@ const Header = () => {
             Sign In
           </Button>
           <Button variant="medium" size="small" onClick={handleJoinBeta}>
-           Join Beta
+           Get Started for Free
           </Button>
         </div>
       </div>
